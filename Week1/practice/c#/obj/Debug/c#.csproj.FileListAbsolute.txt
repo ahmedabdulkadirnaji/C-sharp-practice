@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\c#\c#\c#\obj\Debug\c#.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\c#\c#\c#\obj\Debug\c_.Form1.resources
+C:\Users\hp\Desktop\c#\c#\c#\obj\Debug\c_.Properties.Resources.resources
+C:\Users\hp\Desktop\c#\c#\c#\obj\Debug\c#.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\c#\c#\c#\obj\Debug\c#.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\c#\c#\c#\bin\Debug\c#.exe.config
+C:\Users\hp\Desktop\c#\c#\c#\bin\Debug\c#.exe
+C:\Users\hp\Desktop\c#\c#\c#\bin\Debug\c#.pdb
+C:\Users\hp\Desktop\c#\c#\c#\obj\Debug\c#.exe
+C:\Users\hp\Desktop\c#\c#\c#\obj\Debug\c#.pdb
+C:\Users\hp\Desktop\c#\c#\c#\obj\Debug\c#.exe.config

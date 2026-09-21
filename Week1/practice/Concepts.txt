@@ -1,0 +1,14 @@
+Week 1 Topics Covered
+
+- Object: A program component that contains data and performs operations.
+- Properties: Data stored in an object.
+- Methods: Operations an object can perform.
+- Controls: Objects visible in a GUI, such as Labels, Buttons, and TextBoxes.
+- Class: Code that describes a particular type of object.
+- .NET: A collection of classes and code used to create applications.
+- Visual Studio: An IDE used to develop C# applications.
+- Toolbox: A window used to select controls for an application.
+- Project: An application that contains several files.
+- Solution: A container that can hold one or more projects.
+- Form: The main GUI window of a Windows Forms application.
+- Label Control: A control used to display text or program output.
