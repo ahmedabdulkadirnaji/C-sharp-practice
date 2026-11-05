@@ -31,4 +31,4 @@ CHAPTER 8: Sample Project – Build Desktop Application
 | [Week 4](Week4/) | Chapter 3: decisions, validation and selection controls |
 | [Week 5](Week5/) | Chapter 4: loops, text files, dialogs and random numbers |
 
-This repository brings together C# course notes and practice examples from Week 1 to Week 5. It starts with forms and controls, then moves on to calculations, decisions, loops and files. Open a week’s folder to find its notes, code and images. Week 1 includes screenshots from the original practice; the images in Weeks 2–5 are code illustrations. Details about the lesson sources and AI assistance are included in those weeks’ READMEs.
+This repository brings together C# course notes and practice examples from Week 1 to Week 5. It starts with forms and controls, then moves on to calculations, decisions, loops and files. Open a week’s folder to find its notes, code and images. Week 1 includes screenshots from the original practice; the images in Weeks 2–5 are code illustrations.
