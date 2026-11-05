@@ -1,5 +1,9 @@
-# Week 3 - Chapter 2: Processing Data
+# Week 3 - Lesson Practice
 
+## Concepts
+Chapter 2: arithmetic, integer division, casting, Parse, numeric output, constants and exception handling.
+
+## Chapter summary
 - TextBox.Text contains a string, even when the user types digits.
 - Variables have types: `string` for text, `int` for whole numbers, `decimal` for money and `double` for general floating-point calculations.
 - Parse converts text to a number. FormatException and OverflowException handle invalid or excessively large input.
@@ -8,26 +12,25 @@
 - ToString("F2") displays two decimal places. Math.Round rounds a value; formatting changes its displayed representation.
 - Breakpoints and stepping help inspect values and locate logic errors. TabIndex sets keyboard navigation order and Focus() selects a control for input.
 
-## Practice
-The order calculator reads unit price and quantity, adds 5% tax, rounds the total and counts successful calculations. Enter the price with a decimal point.
 
-| Input | Expected result |
-| --- | --- |
-| Price 10, quantity 2 | Total 21.00 (decimal separator follows system settings) |
-| Price 12.50, quantity 3 | Total 39.38 |
-| Price abc | Numeric input message |
-| Quantity 0 | Positive quantity message |
+## Examples from the lesson
+The comments in [Form1.cs](practice/Form1.cs) identify the source chapter and slide for each example. Some short examples follow the supplied Gaddis Visual C# sixth edition slides directly; others adapt them with input controls, event handlers or error handling. Added practice code is marked. Slide numbers refer to positions in your supplied PowerPoint, whose section numbers sometimes differ from the chapter number.
 
-Try a different tax rate. Place a breakpoint before the total calculation and inspect subtotal and tax.
+## Visual Studio files
+- Form1.cs contains the constructor and button Click handlers, in the style used in class.
+- Form1.Designer.cs contains control creation and InitializeComponent.
+- Program.cs starts the application.
 
-## Run in Visual Studio
-Open the .csproj in practice/ with Visual Studio on Windows. Install the .NET desktop development workload and .NET Framework 4.8 targeting pack if requested. Press F5. Controls are created in code, so this exercise does not use a Designer file.
+Open practice/Week3.csproj in Visual Studio on Windows with the .NET desktop development workload and .NET Framework 4.8 targeting pack. Press F5. Use View Designer on Form1.cs to see the form; edit exercise logic in Form1.cs.
+
+## Practice checks
+Add shows 9. Divide shows 2. Double division shows approximately 2.3333. Enter 8 hours and calculate pay: 80.00 (separator follows your system settings). Invalid text displays a message. The hourly rate of 10 is an added practice value.
 
 ## Code images
-The screenshot/ folder contains generated code illustrations from the included source, labelled as such. They are study examples, not screenshots of a student's Visual Studio session. The examples and summaries were prepared with AI assistance for review and practice.
+These are generated illustrations of the included Form1.cs lesson examples, not personal Visual Studio screenshots. Repository preparation and supporting code used AI assistance.
 
-![Code example 1](screenshot/code-01.png)
+![Lesson example 1](screenshot/code-01.png)
 
-![Code example 2](screenshot/code-02.png)
+![Lesson example 2](screenshot/code-02.png)
 
-Source topics: the supplied Gaddis, Starting Out with Visual C#, sixth edition chapter slides. These notes and exercises use original wording and code.
+Source: supplied Chapter 2 PowerPoint, Gaddis, Starting Out with Visual C#, sixth edition. The original slides are not redistributed here.

@@ -1,5 +1,9 @@
-# Week 5 - Chapter 4: Loops, Files, and Random Numbers
+# Week 5 - Lesson Practice
 
+## Concepts
+Chapter 4: while, for, do-while, incrementing counters, writing text files and SaveFileDialog.
+
+## Chapter summary
 - while is a pretest loop and may run zero times. for groups initialization, condition and update in one statement.
 - do-while checks after the body and therefore runs at least once.
 - ++ increments and -- decrements. Updating the loop state prevents infinite loops.
@@ -10,23 +14,25 @@
 - Random.Next(min, max) includes min and excludes max. Next(1, 7) produces dice values 1 through 6. NextDouble produces a value from 0 inclusive to 1 exclusive.
 - The form Load event runs as the form loads and can initialize displayed information.
 
-## Practice
-Roll generates five dice values with a for loop and displays their total. A small do-while countdown demonstrates decrementing. Save writes each value to a text file. Open uses a while loop to read lines into the list.
 
-Check that five values appear, each from 1 to 6, and that the total is from 5 to 30. Save to a new file, roll again, then open the saved file and compare the original values. Cancelling either dialog should leave the current data alone.
+## Examples from the lesson
+The comments in [Form1.cs](practice/Form1.cs) identify the source chapter and slide for each example. Some short examples follow the supplied Gaddis Visual C# sixth edition slides directly; others adapt them with input controls, event handlers or error handling. Added practice code is marked. Slide numbers refer to positions in your supplied PowerPoint, whose section numbers sometimes differ from the chapter number.
 
-Save overwrites the selected file after the standard confirmation. Use a new practice file. Open displays text lines without assuming that every line is numeric.
+## Visual Studio files
+- Form1.cs contains the constructor and button Click handlers, in the style used in class.
+- Form1.Designer.cs contains control creation and InitializeComponent.
+- Program.cs starts the application.
 
-Try replacing CreateText with AppendText and explain how the saved file changes.
+Open practice/Week5.csproj in Visual Studio on Windows with the .NET desktop development workload and .NET Framework 4.8 targeting pack. Press F5. Use View Designer on Form1.cs to see the form; edit exercise logic in Form1.cs.
 
-## Run in Visual Studio
-Open the .csproj in practice/ with Visual Studio on Windows. Install the .NET desktop development workload and .NET Framework 4.8 targeting pack if requested. Press F5. Controls are created in code, so this exercise does not use a Designer file.
+## Practice checks
+While and For each display Hello five times; dismiss each message to continue. Do-while displays 1 once despite its false condition. Save writes two lines to a chosen text file. Cancel writes nothing. Saving to an existing file overwrites its contents after the dialog confirmation.
 
 ## Code images
-The screenshot/ folder contains generated code illustrations from the included source, labelled as such. They are study examples, not screenshots of a student's Visual Studio session. The examples and summaries were prepared with AI assistance for review and practice.
+These are generated illustrations of the included Form1.cs lesson examples, not personal Visual Studio screenshots. Repository preparation and supporting code used AI assistance.
 
-![Code example 1](screenshot/code-01.png)
+![Lesson example 1](screenshot/code-01.png)
 
-![Code example 2](screenshot/code-02.png)
+![Lesson example 2](screenshot/code-02.png)
 
-Source topics: the supplied Gaddis, Starting Out with Visual C#, sixth edition chapter slides. These notes and exercises use original wording and code.
+Source: supplied Chapter 4 PowerPoint, Gaddis, Starting Out with Visual C#, sixth edition. The original slides are not redistributed here.

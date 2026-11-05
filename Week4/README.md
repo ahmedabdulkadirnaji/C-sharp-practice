@@ -1,5 +1,9 @@
-# Week 4 - Chapter 3: Making Decisions
+# Week 4 - Lesson Practice
 
+## Concepts
+Chapter 3: if, if-else, nested decisions, TryParse and range validation.
+
+## Chapter summary
 - `if`, `if-else` and nested decisions choose which statements execute.
 - Relational operators compare values: ==, !=, <, >, <= and >=.
 - Logical operators &&, || and ! combine or negate Boolean conditions. A bool variable can act as a flag.
@@ -9,26 +13,25 @@
 - A switch selects a case for a matching value. break ends the case, and default handles other values.
 - A ListBox stores Items. SelectedIndex is -1 when nothing is selected; check it before using SelectedItem. Add, Remove, RemoveAt and Clear change the list.
 
-## Practice
-Enter a score, select a course and choose a study mode. The form assigns a grade and checks scholarship eligibility using a check box and a score of at least 80. These are example exercise rules.
 
-| Input | Expected result |
-| --- | --- |
-| 90, C#, scholarship checked | A; eligible True |
-| 79, C#, scholarship checked | C; eligible False |
-| -1, 101 or abc | Validation message |
-| Valid score, no course | Select a course message |
+## Examples from the lesson
+The comments in [Form1.cs](practice/Form1.cs) identify the source chapter and slide for each example. Some short examples follow the supplied Gaddis Visual C# sixth edition slides directly; others adapt them with input controls, event handlers or error handling. Added practice code is marked. Slide numbers refer to positions in your supplied PowerPoint, whose section numbers sometimes differ from the chapter number.
 
-Try boundary scores 59, 60, 79, 80, 89 and 90. Add another course and a switch case for it.
+## Visual Studio files
+- Form1.cs contains the constructor and button Click handlers, in the style used in class.
+- Form1.Designer.cs contains control creation and InitializeComponent.
+- Program.cs starts the application.
 
-## Run in Visual Studio
-Open the .csproj in practice/ with Visual Studio on Windows. Install the .NET desktop development workload and .NET Framework 4.8 targeting pack if requested. Press F5. Controls are created in code, so this exercise does not use a Designer file.
+Open practice/Week4.csproj in Visual Studio on Windows with the .NET desktop development workload and .NET Framework 4.8 targeting pack. Press F5. Use View Designer on Form1.cs to see the form; edit exercise logic in Form1.cs.
+
+## Practice checks
+Sales 50000 gives bonus 0.00; sales 50001 gives 500.00. Hours 1 and 168 are valid; 0 and 169 are invalid. Text such as abc displays a conversion message. The sales rule is from the lecture; input controls and messages are added practice code.
 
 ## Code images
-The screenshot/ folder contains generated code illustrations from the included source, labelled as such. They are study examples, not screenshots of a student's Visual Studio session. The examples and summaries were prepared with AI assistance for review and practice.
+These are generated illustrations of the included Form1.cs lesson examples, not personal Visual Studio screenshots. Repository preparation and supporting code used AI assistance.
 
-![Code example 1](screenshot/code-01.png)
+![Lesson example 1](screenshot/code-01.png)
 
-![Code example 2](screenshot/code-02.png)
+![Lesson example 2](screenshot/code-02.png)
 
-Source topics: the supplied Gaddis, Starting Out with Visual C#, sixth edition chapter slides. These notes and exercises use original wording and code.
+Source: supplied Chapter 3 PowerPoint, Gaddis, Starting Out with Visual C#, sixth edition. The original slides are not redistributed here.
